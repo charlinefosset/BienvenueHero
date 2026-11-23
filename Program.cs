@@ -9,8 +9,13 @@
 */
 class Program
 {
-    static void Main(string[] args)
+    static void Main ()
     {
-        
+        AfficherBienvenue();
+    }
+    
+    static void AfficherBienvenue()
+    {
+        Console.WriteLine ("Bienvenue dans votre aventure, héros!");
     }
 }
